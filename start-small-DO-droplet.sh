@@ -1,13 +1,3 @@
-# Automated testing of recovering MySQL database backups
-#- start a big/huge server in DO 
-#- installs MySQL 
-#- copies a backup from S3 
-#- imports it into MySQL 
-#- if an error occurs email devops 
-#- drop restored DB 
-#- go to another backup! 
-#- Kill the machine!
-
 # for now: start a small server in DO 
 #!/bin/bash
 
