@@ -4,7 +4,7 @@
 #This file can get hard to read
 
 #This script will parse the log file and has the following output:
-# each user has a various number of action, each action can be done tousan of times
+# each user has a various number of action, each action can be done numerous times
 # so this script is counting every action done by user and print them by date sorted in reverse
 
 #     13 2017-08-10 AGNecula /rest/mywork/latest/status/notification/count
