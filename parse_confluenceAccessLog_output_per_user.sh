@@ -29,3 +29,6 @@ for user in $USERS
 do
    grep $user $LOG_FILE | awk '{print $1" "$8}' | sed 's/https:\/\/confluence.bandainamcoent.ro//g' | sort | uniq -c | sort -k1nr >> $DATADIR/${user}.log
 done
+
+#empty the log
+>$LOG_FILE
